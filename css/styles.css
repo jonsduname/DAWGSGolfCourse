@@ -1,4 +1,4 @@
-body {
+#bodyFull {
     background-image: url('../images/frontpage.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -25,7 +25,7 @@ body {
 }
 
 #footerBack {
-    background-color: azure;
+    background-color: lightgrey;
     opacity: 0.8;
 }
 
@@ -36,10 +36,21 @@ body {
 
 h1 {
     font-family: 'Georgia'; 
-    color: rgb(242, 240, 236); 
-    text-shadow: 2px 2px #000000;
+    color: darkgreen; 
+    text-shadow: 1px 1px whitesmoke;
 }
 
+h3 {
+    text-shadow: 1px 1px darkgreen;
+    font-family: 'Georgia'; 
+
+}
+
+#eventsTitle{
+    font-family: 'Georgia'; 
+    color: darkgreen; 
+    text-shadow: 1px 1px #000000;
+}
 #centered {
 position: fixed;
   top: 50%;
@@ -48,8 +59,40 @@ position: fixed;
 }
 
 #topMenuText {
-    color: whitesmoke;
+    color: black;
     font-size: large;
-    text-shadow: 2px 2px #000000;
+    text-shadow: 1px 1px whitesmoke;
+}
+
+#topMenu {
+    opacity: 0.5;
+}
+
+#leftCard{
+    opacity: 0.8;
+}
+#topNav {
+    float: right;
+    text-shadow: 1px 1px darkgreen;
+}
+#topNavEvents {
+    float: right;
+}
+
+#listMargin {
+    margin: 10px;
+}
+a:link {
+    color: azure;
+}
+
+.carousel-inner {
+    height: fit-content;
+}
+    
+#eventText {
+    display: inline-block;
+    width: 50%;
     
 }
+

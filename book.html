@@ -12,40 +12,110 @@
     <link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet'>
     
 </head>
-<body>
+<body id="bodyFull">
 <div id="page-container">
 <div id="content-wrap">
     <header>
         <div class="container">
             <div class="row row-content align-items-center">
-                <div class="col-1 align-self-center">
-                    <nav class="navbar navbar-light" id="menuButton" style= "position:absolute;">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTop" aria-controls="navbarTop" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                            <div class="collapse navbar-collapse" id="navbarTop">
-                                <ul class="nav navbar-nav bg-info">
-                                    <li class="nav-item active">
-                                        <a class="nav-link" href="#">First</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Second</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Third</a>
-                                    </li>
-                                </ul>
-                            </div>
-                    </nav>
+                <div class="col-sm-1 align-items-center justify-content-end mt-3 ml-5">
+                    <a href="index.html">
+                    <img src="images/logo.png" class="img-fluid d-none d-sm-block">
+                    </a>
                 </div>
-                <div class="col align-self-center">
-                    <h1 class="text-center mt-5">DAWGS Golf Club</h1>
+                <div class="col align-self-center justify-content-end">
+                    <h1 class="mt-3 ml-7 text-right">DAWGS Golf Club</h1>
+                </div>
+                <div class="col-sm-4">
+                    <ul class="list-unstyled list-group list-group-horizontal" id="topNav">
+                        <li class="flex-fill" id="listMargin"><a href='index.html' class="text-light">Home</a></li>
+                        <li class="flex-fill" id="listMargin"><a href='book.html' class="text-light">Book Now</a></li>
+                        <li class="flex-fill" id="listMargin"><a href='events.html' class="text-light">Events</a></li>
+                    </ul>
                 </div>
             </div>
         </div> 
     </header>
 </div>
-
+    <div class="container">
+        <div class="row row-content justify-content-start">
+            <div class="col sidebar nopadding offcanvas nopadding search-filter-height" >
+                        <div class="card float-left" style="width: 18rem; height: 100vh max-content;" id="leftCard">
+                            <div class="card-body" id="cardBody">
+                                <h5 class="card-title">Date</h5>
+                                <input type="date" name="date" id="date" class="placeholder">
+                                <div class="row form-group">
+                                    <div class="col col-form-label">
+                                        Number of Golfers
+                                    </div>
+                                    <select class="form-control" name="numGolfers" id="numGolfers">
+                                        <option>Select</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+            <div class="col-xs-12">
+                <div class="card-deck">
+                    <div class="card text-center">
+                        <h5 class="card-title">7:00 AM</h5>
+                        <hr>
+                        <h6>$40</h6>
+                        <p>Walking</p>
+                        <button class="btn btn-success" type="submit">Book Now</button>
+                    </div>
+                    <div class="card text-center">
+                        <h5 class="card-title">7:15 AM</h5>
+                        <hr>
+                        <h6>$40</h6>
+                        <p>Walking</p>
+                        <button class="btn btn-success" type="submit">Book Now</button>
+                    </div>
+                    <div class="card text-center">
+                        <h5 class="card-title">7:30 AM</h5>
+                        <hr>
+                        <h6>$40</h6>
+                        <p>Walking</p>
+                        <button class="btn btn-success" type="submit">Book Now</button>
+                    </div>
+                    <div class="card text-center">
+                        <h5 class="card-title">7:00 AM</h5>
+                        <hr>
+                        <h6>$40</h6>
+                        <p>Walking</p>
+                        <button class="btn btn-success" type="submit">Book Now</button>
+                    </div>
+                    <div class="card text-center">
+                        <h5 class="card-title">7:15 AM</h5>
+                        <hr>
+                        <h6>$40</h6>
+                        <p>Walking</p>
+                        <button class="btn btn-success" type="submit">Book Now</button>
+                    </div>
+                    <div class="card text-center">
+                        <h5 class="card-title">7:30 AM</h5>
+                        <hr>
+                        <h6>$40</h6>
+                        <p>Walking</p>
+                        <button class="btn btn-success" type="submit">Book Now</button>
+                    </div>
+                    <div class="card text-center">
+                        <h5 class="card-title">7:00 AM</h5>
+                        <hr>
+                        <h6>$40</h6>
+                        <p>Walking</p>
+                        <button class="btn btn-success" type="submit">Book Now</button>
+                    </div>
+            </div>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="page-footer bg-light font-small dark-blue-text fixed-bottom">
         <div class="container-fluid text-center">
@@ -54,7 +124,7 @@
                     <ul class="list-unstyled">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="aboutus.html">About</a></li>
-                        <li><a href="#">Book Tee Time</a></li>
+                        <li><a href="book.html">Book Tee Time</a></li>
                     </ul>
                 </div>
                 <div class="col">
